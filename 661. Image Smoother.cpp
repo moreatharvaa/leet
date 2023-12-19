@@ -20,9 +20,8 @@ public:
                 int sum = 0;
                 int count = 0;
 
-                // Iterate over all plausible nine indices.
                 for(auto &it : directions) {
-                    // If the indices form valid neighbor
+
                     int i_ = i + it[0];
                     int j_ = j + it[1];
                     
