@@ -4,7 +4,7 @@ class Solution {
         int numsize = nums.length;
 
 
-        for(int i=0;i<numsize-1;i++)
+        for(int i=0;i<numsize;i++)
         {
             if(nums[i]!=val)
             {
